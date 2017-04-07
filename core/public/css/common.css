@@ -1,0 +1,21 @@
+body{
+    padding: 30px 20px;
+}
+h1{
+    padding:5px 3px 30px;
+    border-bottom: 1px dashed #e3e3e3;
+}
+h1 img{
+    width: 45px;
+    height: 45px;
+}
+footer{
+    padding:5px 3px 30px;
+    border-top: 1px dashed #e3e3e3;
+    position: relative;
+}
+footer span{
+    position:absolute;
+    right: 20px;
+    top:10px;
+}
