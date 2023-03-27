@@ -1,9 +1,59 @@
-<mxfile host="app.diagrams.net" modified="2023-03-27T01:19:51.528Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" version="21.1.1" etag="QaxFZKIQ8EV96C9s1T5A" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-27T01:26:39.008Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="eek8Lx1YE4LOnoRV4sxD" version="21.1.1" type="github">
   <diagram name="第 1 页" id="Cc1XyHBKtQxPtkfq8Vwh">
-    <mxGraphModel>
+    <mxGraphModel dx="1050" dy="541" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="VWD--a9w9a9aZKambICp-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="VWD--a9w9a9aZKambICp-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="130" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VWD--a9w9a9aZKambICp-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="VWD--a9w9a9aZKambICp-1" target="VWD--a9w9a9aZKambICp-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VWD--a9w9a9aZKambICp-1" value="petitioncenter" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VWD--a9w9a9aZKambICp-2" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;党群信访模块&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="30" y="35" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VWD--a9w9a9aZKambICp-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="VWD--a9w9a9aZKambICp-3" target="VWD--a9w9a9aZKambICp-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VWD--a9w9a9aZKambICp-3" value="协同平台" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VWD--a9w9a9aZKambICp-5" value="RPC" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="340" y="200" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VWD--a9w9a9aZKambICp-6" value="拉取信访信息" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="270" y="225" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VWD--a9w9a9aZKambICp-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="VWD--a9w9a9aZKambICp-8" target="VWD--a9w9a9aZKambICp-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VWD--a9w9a9aZKambICp-8" value="MySQL" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="100" y="380" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="VWD--a9w9a9aZKambICp-9" value="Nacos" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="90" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VWD--a9w9a9aZKambICp-11" value="注册" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="135" y="135" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VWD--a9w9a9aZKambICp-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=1;entryDx=0;entryDy=-15;entryPerimeter=0;" edge="1" parent="1" source="VWD--a9w9a9aZKambICp-12" target="VWD--a9w9a9aZKambICp-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VWD--a9w9a9aZKambICp-12" value="普元流程管理" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="360" y="380" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="VWD--a9w9a9aZKambICp-14" value="创建流程 \ 处理流程" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="185" y="380" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VWD--a9w9a9aZKambICp-17" value="状态变更（定时任务）" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="165" y="450" width="140" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
